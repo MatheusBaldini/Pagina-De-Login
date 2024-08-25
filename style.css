@@ -54,8 +54,12 @@ label {
 
 
 input {
-    color: white;
     background-color: rgba(0, 0, 0, 0.45);
+}
+
+button {
+    border: none;
+    background-color: rgb(92, 91, 91);
 }
 
 ::placeholder {
@@ -64,6 +68,7 @@ input {
 
 input,
 button {
+    color: white;
     outline: none;
     padding: 8px 15px;
 }

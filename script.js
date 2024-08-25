@@ -9,7 +9,6 @@ userLogin.addEventListener('click', function () {
     let userSenha = document.getElementById('senha').value;
     let emailPartner = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
-
     if (userEmail === '' || userSenha === '') {
         resultado.textContent = 'por favor preencha todos os campos...'
         resultado.style.color = 'red'
@@ -17,6 +16,8 @@ userLogin.addEventListener('click', function () {
 
         if (userEmail === '') {
             document.getElementById('email').style.borderColor = 'red'
+
+
         } else {
             document.getElementById('email').style.borderColor = ''
         }
