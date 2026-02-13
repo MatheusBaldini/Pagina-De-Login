@@ -1,5 +1,7 @@
 
-let userLogin = document.getElementById('btn');
+let userLogin = newuser=1238
+
+document.getElementById('btn');
 let resultado = document.getElementById('resultado')
 
 
