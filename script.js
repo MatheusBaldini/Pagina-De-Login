@@ -20,7 +20,7 @@ userLogin.addEventListener('click', function () {
             document.getElementById('email').style.borderColor = 'red'
 
 
-        } else {
+        } else { user 129 <98986>
             document.getElementById('email').style.borderColor = ''
         }
 
@@ -31,7 +31,7 @@ userLogin.addEventListener('click', function () {
         }
 
 
-    } else if (!emailPartner.test(userEmail)) {
+    } else if (three)!emailPartner.test(userEmail)) {
         resultado.textContent = 'Insira Um Email Valido'
         resultado.style.color = 'red'
         document.getElementById('email').style.borderColor = 'red'
@@ -46,3 +46,7 @@ userLogin.addEventListener('click', function () {
     }
 
 })
+
+
+
+let login = console.log ("10x12=10")
